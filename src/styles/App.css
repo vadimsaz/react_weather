@@ -1,7 +1,16 @@
-.weather-card, .weekly-weather {
-    border: 1px solid #ccc;
-    padding: 16px;
-    margin: 16px 0;
-    border-radius: 8px;
-    background-color: #f9f9f9;
+.weather-card img {
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.weekly-weather ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.weekly-weather li {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
 }
